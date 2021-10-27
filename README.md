@@ -16,7 +16,7 @@ const urls=[
 
 const routes = [
   {
-    element: <App />,
+    element: <MainLayout />,
     path: "/",
     children: [
       {
@@ -34,10 +34,6 @@ const routes = [
           {
             path: ":teamId",
             element: <Team />
-          },
-          {
-            path: ":teamId/edit",
-            element: <EditTeam />
           },
           {
             path: "new",

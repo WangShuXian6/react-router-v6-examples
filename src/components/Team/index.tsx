@@ -5,6 +5,8 @@ const Team = () => {
   const location = useLocation();
   const urlParams = useParams();
   const [urlSearchParams] = useSearchParams();
+  console.table(location)
+  console.table(urlSearchParams)
 
   const { teamId } = urlParams;
 
