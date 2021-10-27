@@ -2,3 +2,9 @@
     background-color: rgb(220, 217, 223);
     color: #555;
 }
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
